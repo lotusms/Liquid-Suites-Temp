@@ -1,0 +1,29 @@
+{
+  "name": "liquidsuites_temp.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"wait-on http://localhost:3000 && open-cli http://localhost:3000\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.1",
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "concurrently": "^9.2.1",
+    "open-cli": "^8.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "wait-on": "^9.0.3"
+  }
+}
