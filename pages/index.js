@@ -24,13 +24,13 @@ export default function Home() {
           opacity: 0.6,
         }}
       />
-      <p className="lg:hidden text-white text-7xl md:text-8xl font-hummingbird absolute top-0 left-[50%] translate-x-[-50%] translate-y-[50%]">Liquid Suites</p>
+      <p className="lg:hidden text-white text-5xl sm:text-7xl md:text-8xl font-hummingbird absolute top-0 left-[50%] translate-x-[-50%] translate-y-[50%]">Liquid Suites</p>
       
       <WaveDivider waveColor="#243875" />
 
       <div className="relative z-10 w-full mx-auto px-6 md:px-12 lg:px-16 flex items-center justify-between">
         <div className="lg:hidden bg-black/60 rounded-lg p-6 inline-block">
-          <div className="w-full py-20 max-w-2xl">
+          <div className="w-full md:py-20 max-w-2xl">
 
             <h1 className="font-serif text-4xl font-bold text-white mb-6 leading-tight">
               Our Website is <br/> Coming Soon

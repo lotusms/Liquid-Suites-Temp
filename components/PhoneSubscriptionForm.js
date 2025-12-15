@@ -140,7 +140,7 @@ export default function PhoneSubscriptionForm({ onSubmit }) {
 
   return (
     <form className="flex flex-col gap-4 max-w-xl" onSubmit={handleSubmit}>
-			<div className="flex flex-row gap-2 w-full">
+			<div className="flex md:flex-row flex-col gap-2 w-full">
 				<div className="flex-1 relative group">
 					<div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-400 via-teal-500 to-blue-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
 					<input
